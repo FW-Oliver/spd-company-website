@@ -218,3 +218,66 @@ h3 { font-size:1.2rem; }
   background: #0c4fae;
   transform: translateY(-1px);
 }
+
+/* V1.3 - Image sizing */
+
+.hero-product {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 15px 0;
+}
+
+.hero-product img {
+  width: 58px;
+  height: 58px;
+  min-width: 58px;
+  object-fit: cover;
+  border-radius: 14px;
+  display: block;
+}
+
+.hero-product strong {
+  display: block;
+  color: #ffffff;
+  font-size: 0.95rem;
+  line-height: 1.3;
+}
+
+.hero-product span {
+  display: block;
+  margin-top: 3px;
+  color: #b8c5d0;
+  font-size: 0.78rem;
+}
+
+.profile-photo {
+  margin-top: 28px;
+  width: 100%;
+  max-width: 330px;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 18px 45px rgba(18, 35, 52, 0.12);
+}
+
+.profile-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.product-card .app-icon {
+  width: 72px;
+  height: 72px;
+  min-width: 72px;
+  border-radius: 16px;
+  overflow: hidden;
+  display: block;
+}
+
+.product-card .app-icon img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
